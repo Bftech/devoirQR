@@ -1,0 +1,67 @@
+html, body {
+	width:100%;
+	height:100%;
+	padding:0;
+	margin:0;
+	overflow:hidden;
+}
+
+#content section{
+  float:left;
+	display:block;
+	height:100%;
+	padding:0;
+	margin:0;
+}
+
+#content section header{
+  height: 15vh;
+  -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+#content section article{
+  margin-top: 5vh;
+  text-align: justify;
+  overflow-y: auto;
+}
+#content section article p{
+  font-family: monospace;
+}
+
+section header{
+  background-color: #005c9f;
+}
+
+#section2 ul :nth-child(1) strong{
+	color: red;
+}
+#section2 ul :nth-child(2) strong{
+	color: purple;
+}
+#section2 ul :nth-child(3) strong{
+	color: lightblue;
+}
+#section2 ul :nth-child(4) strong{
+	color: blue;
+}
+#section2 ul :nth-child(5) strong{
+	color: #dee300;
+}
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 15vw;
+  height: 100vh;
+  background-color: #0076cc;
+  background-image: url("img/ban.png");
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 3px 0px 5px 0px rgba(0,0,0,0.75);
+  z-index: 1;
+}
