@@ -41,7 +41,7 @@ section header{
 	color: purple;
 }
 #section2 ul :nth-child(3) strong{
-	color: lightblue;
+	color: #0094ff;
 }
 #section2 ul :nth-child(4) strong{
 	color: blue;
